@@ -20,3 +20,4 @@ Commands for installing UV:
     6. uv add numpy
     7. uv add -r requirements.txt     #if you want to execute requirements.txt
     8. uv run main.py
+    uv.lock file contains all the references from where all the packages are installed. it keeps all the track.
