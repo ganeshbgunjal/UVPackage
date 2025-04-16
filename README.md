@@ -15,4 +15,8 @@ Commands for installing UV:
     2. uv init uvdemo       #this is folder in project.
     it will create necessory files bydefault. this is so fast.
     3. uv venv              #to create virtul environment
-    4. 
+    4. .venv\Scripts\activate    #activate venv.. link is given there after creating venv.
+    5. uv add pandas     #adding necessory files.
+    6. uv add numpy
+    7. uv add -r requirements.txt     #if you want to execute requirements.txt
+    8. uv run main.py
